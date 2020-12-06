@@ -1,10 +1,9 @@
 {
-  "name": "@sebastbake/",
+  "name": "@sebastbake/salivation",
   "version": "0.0.0",
-  "main": "dist/index.js",
-  "private": true,
+  "license": "UNLICENSED",
   "scripts": {
-    "build": "npx tsc",
+    "build": "rm -rf ./dist & npx tsc",
     "prepublishOnly": "npm run build"
   },
   "author": "Sebastian Baker",
