@@ -5,7 +5,7 @@ import { createValidator } from "../validator";
  * Creates a validator for a number
  * @param restrictions
  */
-const number = (
+export const number = (
   restrictions: {
     lt?: number;
     gt?: number;
@@ -41,5 +41,3 @@ const number = (
       return ok(validateMe);
     },
   });
-
-export default number;
