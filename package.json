@@ -1,0 +1,22 @@
+{
+  "name": "@sebastbake/",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "private": true,
+  "scripts": {
+    "build": "npx tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Sebastian Baker",
+  "devDependencies": {
+    "typescript": "^4.1.0-beta"
+  },
+  "files": [
+    "dist"
+  ],
+  "tags": [
+    "typescript"
+  ],
+  "type": "module",
+  "dependencies": {}
+}
